@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DoJo Movie"
+rootProject.name = "DoJo-Movie"
 include(":app")
