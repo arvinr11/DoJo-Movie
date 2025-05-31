@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/film_card_view"
+    android:layout_marginRight="12dp">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="left">
+
+        <ImageView
+            android:id="@+id/iv_poster_film"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"/>
+
+        <TextView
+            android:id="@+id/tv_judul_film"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Judul"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:paddingLeft="4dp"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:id="@+id/tv_harga_film"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Harga"
+            android:textSize="12dp"
+            android:paddingLeft="4dp"
+            android:textColor="@color/grey"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
